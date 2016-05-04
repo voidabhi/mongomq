@@ -9,7 +9,7 @@ Run mongo queries by pushing it to zmq
 ```python
 
 from mongomq import QueryExecutor, QueryPublisher
-import pprint
+from pprint import pprint
 
 def query_result(curr):
   pprint(curr)
