@@ -29,6 +29,10 @@ if __name__ == '__main__':
   publish_queries()
 ```
 
+### Contributing
+
+- Please use the [issue tracker](https://github.com/voidabhi/mongomq/issues) to report any bugs or file feature requests.
+
 ## License
 
 ```
