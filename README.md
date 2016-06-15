@@ -4,7 +4,7 @@
 Run mongo queries by pushing it to zmq
 
 
-## Doc
+## Documentation
 
 ```python
 
