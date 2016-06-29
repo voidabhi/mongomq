@@ -1,7 +1,7 @@
 
 ## mongomq
 
-Run mongo queries by pushing it to zmq
+Mongo query consumer
 
 
 ## Documentation
