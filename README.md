@@ -11,13 +11,16 @@ Mongo query consumer
 from mongomq import QueryExecutor, QueryPublisher
 from pprint import pprint
 
+# callback which is called when query result is recieved
 def query_result(curr):
   pprint(curr)
 
+# start query executor consumer
 def start_executor():
   qe = QueryExecutor()
   qe.start()
 
+# querying db by publishing queries
 def publish_queries()
   qp1 = QueryPublisher()
   qp1.publish('db1', 'colA', 'find({})', query_result)
