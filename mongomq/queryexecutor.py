@@ -42,8 +42,6 @@ class QueryExecutor(object):
         """Return the query result"""
         if not self._conn:
             self._connectdb()
-        print
-        print
         query_result = self._conn.[query['dbname']][query['colname']]
         return callback(query_result)
 
