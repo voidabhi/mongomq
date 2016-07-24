@@ -3,6 +3,13 @@
 
 Mongo query consumer
 
+## Building
+
+'''bash
+$ python venv
+$ source venv/bin/activate
+'''
+
 
 ## Documentation
 
