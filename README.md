@@ -5,10 +5,10 @@ Mongo query consumer
 
 ## Building
 
-'''bash
+```bash
 $ python venv
 $ source venv/bin/activate
-'''
+```
 
 
 ## Documentation
