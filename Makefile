@@ -7,9 +7,10 @@ clean:
     rm -rf dist dist.tar.gz
 
 copy:
-	pip install -r requirements.txt
+    pip freeze > requirements.txt
     mkdir dist
     cp -R mongomq dist
+    cp -R requirements.txt dist
 
 tar:
     tar -zc dist/ | gzip > dist.tar.gz
