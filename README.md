@@ -8,6 +8,7 @@ Mongo query consumer
 ```bash
 $ python venv
 $ source venv/bin/activate
+$ sh build.sh
 ```
 
 
