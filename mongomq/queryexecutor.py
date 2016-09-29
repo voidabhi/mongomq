@@ -1,6 +1,3 @@
-
-
-
 import pickle
 import zmq
 import threading
@@ -24,6 +21,7 @@ class QueryExecutor(object):
         self._conn = None
 
     def _connectdb(self):
+        """Connects Mongo"""
         self._conn = pymongo.MongoClient(self.zmqconfig.get('host', MONGO_DEFAULT_HOST), self.zmqconfig.get('port', MONGO_DEFAULT_PORT))
 
     def _listen(self):
@@ -46,6 +44,7 @@ class QueryExecutor(object):
         return callback(query_result)
 
     def start(self):
+        "Start executor thread"
         thread = threading.Thread(target=self._listen, args=())
         thread.daemon = True
         thread.start()
