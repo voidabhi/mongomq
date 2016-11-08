@@ -7,6 +7,7 @@ clean:
     rm -rf dist dist.tar.gz
 
 copy:
+    source ./venv/bin/activate
     pip freeze > requirements.txt
     mkdir dist
     cp -R mongomq dist
