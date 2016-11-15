@@ -1,7 +1,7 @@
 
 ## mongomq
 
-Mongo query consumer
+Mongo queries with zmq interface
 
 ## Building
 
