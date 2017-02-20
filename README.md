@@ -7,7 +7,7 @@ Mongo queries with zmq interface
 
 ```bash
 $ python venv
-$ source venv/bin/activate
+$ source ./venv/bin/activate
 $ make
 ```
 
